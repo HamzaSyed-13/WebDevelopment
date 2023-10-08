@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Question 3</title>
+        <script>
+            function showJson() {
+                 var code = document.getElementById("codeInput").value;
+                 var title = document.getElementById("titleInput").value;
+                 var cp = Number(document.getElementById("cpInput").value);
+                 var core = document.getElementById("coreInput").checked;
+
+                 var object = {};
+                 object.code = code;
+                 object.title = title;
+                 object.cp = cp;
+                 object.coreFlag = core;
+
+                 var subject = JSON.stringify(object, null, 2);
+
+                 var displayText = document.getElementById("display");
+                 displayText.value = subject;
+            }
+        </script>
+    </head>
+    <body>
+        Subject code: <input type="text" id="codeInput" /><br />
+        Subject title: <input type="text" id="titleInput" /><br />
+        Subject credit point: <input type="text" id="cpInput" /><br />
+        Core subject: <input type="checkbox" id="coreInput" /><br /><br />
+        <button onClick="showJson()">View JSON</button><br />
+        <textarea rows="7" cols="50" id="display"></textarea>
+    </body>
+</html>
