@@ -1,0 +1,46 @@
+<html>
+   <head>
+      <title>Cinemania</title>
+   </head>
+   <body>
+      <h1>CINEMANIA</h1>
+      <form action="http://cinemania.com.au/query" method="get">
+           <b>Select Cinema:</b><br />
+           <input type="radio" name="cinemaLoc" value="woll"/>Wollongong<br />
+           <input type="radio" name="cinemaLoc" value="warr"/>Warrawong<br />
+           <input type="radio" name="cinemaLoc" value="shell"/>Shellharbour<br /><br />
+
+           <b>Name:</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+           <input type="text" size="30" name="name"/><br />
+
+           <b>Mobile Number:</b>
+           <input type="text" size="30" name="mobph"/><br />
+
+           <b>Email:</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+           <input type="text" size="30" name="email"/><br /><br />
+
+           <b>Select day:</b><br />
+           <select name="day" multiple>
+                <option value="tue">Tuesday</option>
+                <option value="wed">Wednesday</option>
+                <option value="thu">Thursday</option>
+                <option value="fri">Friday</option>
+                <option value="sat">Saturday</option>
+                <option value="sun">Sunday</option>
+           </select><br /><br />
+
+           <b>Select time:</b><br />
+           <input type="checkbox" name="time" value="1"/>11 am<br />
+           <input type="checkbox" name="time" value="2"/>2 pm<br />
+           <input type="checkbox" name="time" value="3"/>6 pm<br />
+           <input type="checkbox" name="time" value="4"/>9 pm<br /><br />
+
+           <b>Include additional details(if any):</b><br />
+           <textarea name="req" rows="5" cols="30">
+           </textarea><br /><br />
+           
+           <input type="submit" value="Submit"/>
+           <input type="reset" value="Reset"/>
+      </form>
+   </body>
+</html>
