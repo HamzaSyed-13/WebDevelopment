@@ -1,0 +1,437 @@
+<html>
+   <head>
+      <title>A1-Task2</title>
+   </head>
+   <style>
+         #moviePara {
+             font-size:50px;
+             background-color:#ffe6d0;
+             padding:30px;
+             text-align:center;
+             border-style:dotted;
+             border-color:red;
+             border-width:5px;
+         }
+
+         #headerRow {
+             font-size:30px;
+             color:black;
+             background-color:#fff1d0;
+         }
+
+         tr.row {
+             background-color:#fffdd0;
+         }
+
+         th.nameColumn {
+             text-align:center;
+             vertical-align:top;
+         }
+
+         td.nameColumn {
+             text-align:center;
+             vertical-align:top;
+         }
+
+         th.castColumn {
+             text-align:center;
+             vertical-align:top;
+         }
+
+         td.castColumn {
+             text-align:center;
+             vertical-align:top;
+         }
+
+         th.streamColumn {
+             text-align:left;
+             vertical-align:top;
+         }
+
+         td.streamColumn {
+             text-align:left;
+             vertical-align:top;
+         }
+
+         #teamTable {
+             border-style:solid;
+             border-collapse:seperate;
+             border-spacing:10px;
+             background-color:#fff1d0;
+         }
+
+         #teamTable th {
+             padding:20px;
+             border-style:solid;
+             border-color:gray;
+             border-width:1px;
+             height:20%;
+             width:20%;
+         }  
+         #teamTable td {
+             padding:20px;
+             border-style:solid;
+             border-color:gray;
+             border-width:1px;
+             height:20%;
+             width:20%;
+         }  
+   </style>
+   <body>
+      <p id="moviePara">Top 10 Popular Movies in Australia</p>
+      <table id="teamTable">
+         <tr id="headerRow">
+             <th class="nameColumn">Movie Title</th>
+             <th class="castColumn">Cast</th>
+             <th class="streamColumn">Streaming Providers</th>
+         </tr>
+         <tr class="row">
+             <td class="nameColumn">
+               Lion<br />
+               <img src="pic1.png" height="200px" width="200px" />
+             </td>
+             <td class="castColumn">
+               <ul>
+                  <li>Dev Patel</li>
+                  <li>Rooney Mara</li>
+                  <li>Abhishek Bharate</li>
+                  <li>Khushi Solanki</li>
+                  <li>Tannishtha Chatterjee</li>
+                  <li>Riddhi Sen</li>
+                  <li>Rita Roy</li>
+                  <li>Surojit Das</li>
+                  <li>Menik Gooneratne</li>
+                  <li>Nicole Kidman</li>
+                  <li>Sunny Pawar</li>
+                  <li>Priyanka Bose</li>
+                  <li>Shankar Nisode</li>
+                  <li>Nawazuddin Siddiqui</li>
+                  <li>Kaushik Sen</li>
+                  <li>Udayshankar Pal</li>
+                  <li>Deepti Naval</li>
+                  <li>David Wenham</li>
+               </ul>
+             </td>
+             <td class="streamColumn">
+               <ol>
+                  <li>FOXTELNow</li>
+                  <li>beamafilm</li>
+               </ol>
+             </td>  
+         </tr>
+         <tr class="row">
+             <td class="nameColumn">
+               Mad Max: Fury Road<br />
+               <img src="pic2.png" height="200px" width="200px" />
+             </td>
+             <td class="castColumn">
+               <ul>
+                  <li>Tom Hardy</li>
+                  <li>Charlize Theron</li>
+                  <li>Nicholas Hoult</li>
+                  <li>Hugh Keays-Byrne</li>
+                  <li>Josh Helman</li>
+                  <li>Nathan Jones</li>
+                  <li>Zoë Kravitz</li>
+                  <li>Rosie Huntington-Whiteley</li>
+                  <li>Riley Keough</li>
+                  <li>Abbey Lee</li>
+                  <li>Courtney Eaton</li>
+                  <li>John Howard</li>
+                  <li>Richard Carter</li>
+                  <li>Iota</li>
+                  <li>Angus Sampson</li>
+                  <li>Jennifer Hagan</li>
+                  <li>Megan Gale</li>
+                  <li>Melissa Jaffer</li>
+               </ul>
+             </td>
+             <td class="streamColumn">
+               <ol>
+                  <li>Netflix</li>
+                  <li>Prime Video</li>
+                  <li>FOXTELNow</li>
+                  <li>Stan.</li>
+               </ol>
+             </td>  
+         </tr>
+         <tr class="row">
+             <td class="nameColumn">
+               Rabbit-Proof Fence<br />
+               <img src="pic3.png" height="200px" width="200px" />
+             </td>
+             <td class="castColumn">
+               <ul>
+                  <li>Everlyn Sampi</li>
+                  <li>Tianna Sansbury</li>
+                  <li>Kenneth Branagh</li>
+                  <li>Laura Monaghan</li>
+                  <li>David Gulpilil</li>
+                  <li>Ningali Lawford</li>
+                  <li>Myarn Lawford</li>
+                  <li>Deborah Mailman</li>
+                  <li>Jason Clarke</li>
+                  <li>Natasha Wanganeen</li>
+                  <li>Garry McDonald</li>
+                  <li>Roy Billing</li>
+                  <li>Lorna Lesley</li>
+                  <li>Celine O'Leary</li>
+                  <li>Kate Roberts</li>
+                  <li>Tracy Monaghan</li>
+                  <li>Tamara Flanagan</li>
+                  <li>David Ngoombujarra</li>
+               </ul>
+             </td>
+             <td class="streamColumn">
+               <ol>
+                  <li>Netflix</li>
+                  <li>Stan.</li>
+               </ol>
+             </td>  
+         </tr>
+         <tr class="row">
+             <td class="nameColumn">
+               Hacksaw Ridge<br />
+               <img src="pic4.png" height="200px" width="200px" />
+             </td>
+             <td class="castColumn">
+               <ul>
+                  <li>Andrew Garfield</li>
+                  <li>Sam Worthington</li>
+                  <li>Luke Bracey</li>
+                  <li>Teresa Palmer</li>
+                  <li>Richard Pyros</li>
+                  <li>Jacob Warner</li>
+                  <li>Milo Gibson</li>
+                  <li>Darcy Bryce</li>
+                  <li>Roamn Guerriero</li>
+                  <li>James Lugton</li>
+                  <li>Kasia Stelmach</li>
+                  <li>Hugo Weaving</li>
+                  <li>Rachel Griffiths</li>
+                  <li>Jarin Towney</li>
+                  <li>Tim McGarry</li>
+                  <li>Tyler Coppin</li>
+                  <li>Richard Platt</li>
+                  <li>Nathaniel Buzolic</li>
+               </ul>
+             </td>
+             <td class="streamColumn">
+               <ol>
+                  <li>Netflix</li>
+                  <li>FOXTELNow</li>
+                  <li>Stan.</li>
+               </ol>
+             </td>  
+         </tr>
+         <tr class="row">
+             <td class="nameColumn">
+               The Water Diviner<br />
+               <img src="pic6.png" height="200px" width="200px" />
+             </td>
+             <td class="castColumn">
+               <ul>
+                  <li>Russell Crowe</li>
+                  <li>Olga Kurylenko</li>
+                  <li>Jai Courtney</li>
+                  <li>Isabel Lucas</li>
+                  <li>Yilmaz Erdogan</li>
+                  <li>Cem Yilmaz</li>
+                  <li>Dylan Jett</li>
+                  <li>Steve Bastoni</li>
+                  <li>Salih Kalyon</li>
+                  <li>Megan Gale</li>
+                  <li>Ryan Corr</li>
+                  <li>James Fraser</li>
+                  <li>Ben O'Toole</li>
+                  <li>Jacqueline McKenzie</li>
+                  <li>Jack Patterson</li>
+                  <li>Ben Norris</li>
+                  <li>Aidan Liam Smith</li>
+                  <li>Damon Herriman</li>
+               </ul>
+             </td>
+             <td class="streamColumn">
+               <ol>
+                 None
+               </ol>
+             </td>  
+         </tr>
+         <tr class="row">
+             <td class="nameColumn">
+               Australia<br />
+               <img src="pic5.png" height="200px" width="200px" />
+             </td>
+             <td class="castColumn">
+               <ul>
+                  <li>Nicole Kidman</li>
+                  <li>Hugh Jackman</li>
+                  <li>Shea Adams</li>
+                  <li>Eddie Baroo</li>
+                  <li>Ray Barrett</li>
+                  <li>Tony Barry</li>
+                  <li>Jamal Sydney Bednarz</li>
+                  <li>Damian Bradford</li>
+                  <li>Bryan Brown</li>
+                  <li>Nathin Art Butler</li>
+                  <li>Tara Carpenter</li>
+                  <li>Rebecca Chatfield</li>
+                  <li>Lillian Crombie</li>
+                  <li>Max Cullen</li>
+                  <li>Essie Davis</li>
+                  <li>Arthur Dignam</li>
+                  <li>Michelle Dyzla</li>
+                  <li>Haidee Gaudry</li>
+               </ul>
+             </td>
+             <td class="streamColumn">
+               <ol>
+                  <li>Disney Plus</li>
+               </ol>
+             </td>  
+         </tr>
+         <tr class="row">
+             <td class="nameColumn">
+               Jasper Jones<br />
+               <img src="pic7.png" height="200px" width="200px" />
+             </td>
+             <td class="castColumn">
+               <ul>
+                  <li>Levi Miller</li>
+                  <li>Kevin Long</li>
+                  <li>Toni Collette</li>
+                  <li>Aaron L. McGrath</li>
+                  <li>Nandalie Campbell Killick</li>
+                  <li>Dan Wyllie</li>
+                  <li>Matt Nable</li>
+                  <li>Wilson Moore</li>
+                  <li>Luke Hewitt</li>
+                  <li>Cooper van Grootel</li>
+                  <li>Jack Kilrain</li>
+                  <li>Jesse Callaghan</li>
+                  <li>Igor Sas</li>
+                  <li>Angourie Rice</li>
+                  <li>Susan Prior</li>
+                  <li>Myles Pollard</li>
+                  <li>Ron Ashton</li>
+                  <li>Alexandra Jones</li>
+               </ul>
+             </td>
+             <td class="streamColumn">
+               <ol>
+                  <li>Netflix</li>
+                  <li>Stan.</li>
+               </ol>
+             </td>  
+         </tr>
+         <tr class="row">
+             <td class="nameColumn">
+               The Dressmaker<br />
+               <img src="pic8.png" height="200px" width="200px" />
+             </td>
+             <td class="castColumn">
+               <ul>
+                  <li>Kate Winslet</li>
+                  <li>Judy Davis</li>
+                  <li>Liam Hemsworth</li>
+                  <li>Hugo Weaving</li>
+                  <li>Julia Blake</li>
+                  <li>Shane Bourne</li>
+                  <li>Kerry Fox</li>
+                  <li>Rebecca Gibney</li>
+                  <li>Caroline Goodall</li>
+                  <li>Gyton Grantley</li>
+                  <li>Tracey Harvey</li>
+                  <li>Sacha Horler</li>
+                  <li>Shane Jacobson</li>
+                  <li>Geneviève Lemon</li>
+                  <li>James Mackay</li>
+                  <li>Hayley Magnus</li>
+                  <li>Simon Maiden</li>
+                  <li>Terry Norris</li>
+               </ul>
+             </td>
+             <td class="streamColumn">
+               <ol>
+                  <li>Binge</li>
+                  <li>FOXTELNow</li>
+                  <li>Stan.</li>
+               </ol>
+             </td>  
+         </tr>
+         <tr class="row">
+             <td class="nameColumn">
+               Animal Kingdom<br />
+               <img src="pic9.png" height="200px" width="200px" />
+             </td>
+             <td class="castColumn">
+               <ul>
+                  <li>James Frecheville</li>
+                  <li>Guy Pearce</li>
+                  <li>Joel Edgerton</li>
+                  <li>Bryce Lindemann</li>
+                  <li>Paul Smits</li>
+                  <li>Jacki Weaver</li>
+                  <li>Luke Ford</li>
+                  <li>Sullivan Stapleton</li>
+                  <li>Mirrah Foulkes</li>
+                  <li>Anthony Ahern</li>
+                  <li>Justin Rosniak</li>
+                  <li>Michael Valamios</li>
+                  <li>Chris Weir</li>
+                  <li>Laura Wheelwright</li>
+                  <li>Sarah Nguyen</li>
+                  <li>Lucia Cai</li>
+                  <li>Ben Mendelsohn</li>
+                  <li>Ann Michôd</li>
+               </ul>
+             </td>
+             <td class="streamColumn">
+               <ol>
+                  <li>Stan.</li>
+                  <li>SBS</li>
+               </ol>
+             </td>  
+         </tr>
+         <tr class="row">
+             <td class="nameColumn">
+               Ned Kelly<br />
+               <img src="pic10.png" height="200px" width="200px" />
+             </td>
+             <td class="castColumn">
+               <ul>
+                  <li>Heath Ledger</li>
+                  <li>Orlando Boom</li>
+                  <li>Geoffrey Rush</li>
+                  <li>Naomi Watts</li>
+                  <li>Joel Edgerton</li>
+                  <li>Laurence Kinlan</li>
+                  <li>Philip Barantini</li>
+                  <li>Kerry Condon</li>
+                  <li>Kris McQuade</li>
+                  <li>Emily Browning</li>
+                  <li>Kiri Paramore</li>
+                  <li>Rachel Griffiths</li>
+                  <li>Geoff Morrell</li>
+                  <li>Charles 'Bud' Tingwell</li>
+                  <li>Saskia Burmeister</li>
+                  <li>Peter Phelps</li>
+                  <li>Russell Dykstra</li>
+                  <li>Nick Farnell</li>
+               </ul>
+             </td>
+             <td class="streamColumn">
+               <ol>
+                  <li>Binge</li>
+                  <li>FOXTELNow</li>
+               </ol>
+             </td>  
+         </tr>
+      </table><br /><br /><br /><br />
+      <h6>References:</h6>
+        <ul>
+           <li><font size="1"><a href="https://www.imdb.com/list/ls021685944/">https://www.imdb.com/list/ls021685944/</a></font></li>
+           <li><font size="1"><a href="https://www.justwatch.com/">https://www.justwatch.com/</a></font></li>
+        </ul>
+   </body>
+</html>
