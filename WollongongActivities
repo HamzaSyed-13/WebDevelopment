@@ -1,0 +1,135 @@
+<html>
+  <head>
+     <title>Wollongong Info Center</title>
+  </head>
+  <body>
+     <table align="center" border="0">
+         <tr>
+             <td>
+                <img src="Logo.png" height="100px" width="100px" />
+             <td/>
+             <td valign="bottom">
+                <h1><i><u>Wollongong Info Center</u></i></h1>
+             </td>
+         </tr>
+     </table><br /><br />
+     <h3><b><i><u>Community Events:</u></i></b></h3>
+     <table border="1">
+         <tr>
+             <th><font color="blue">Event</font></th>
+             <th><font color="red">Dates</th>
+             <th><font color="green">Description</th>
+             <th><font color="orange">Additional Info</th>
+         </tr>
+         <tr>
+             <td>Women's World Cup Live Site</td>
+             <td>12-Aug-2023</td>
+             <td>Come support the Matilda's as they play in the Fifa Women's World Cup.</td>
+             <td>
+                <ul>
+                   <li>Pricing: Free</li>
+                   <li>Location: Globe Lane</li>
+                   <li>Time: 05:00pm - 08:00pm</li>
+                   <li>Link: <a href="https://www.wollongong.nsw.gov.au/my-community/events/events/womens-world-cup-live-site3">Women's World Cup Live Site</a></li>
+                </ul>
+             </td>
+         </tr>
+         <tr>
+             <td>Garden Discovery Walking Tour</td>
+             <td>13-Aug-2023</td>
+             <td>Walk with a guide and discover the plants and history of Wollongong Botanic Garden.</td>
+             <td>
+                <ul>
+                   <li>Pricing: Free</li>
+                   <li>Location: Botanic Garden Duck Pond</li>
+                   <li>Time: 02:00pm - 03:00pm</li>
+                   <li>Link: <a href="https://wollongongbotanicgarden.com.au/bg-events/friends-events/garden-discovery-walking-tour10">Garden Discovery Walking Tour</a></li>
+                </ul>
+             </td>
+         </tr>
+         <tr>
+             <td>Knit, Stitch, Yarn - Warrawong Library</td>
+             <td>14-Aug-2023</td>
+             <td>Come join us and find a group that shares your passion of knitting, crocheting, cross stitcing, or embroidery.</td>
+             <td>
+                <ul>
+                   <li>Pricing: Free</li>
+                   <li>Location: Warrawong Library</li>
+                   <li>Time: 10:00am - 12:00pm</li>
+                   <li>Link: <a href="https://www.wollongong.nsw.gov.au/library/library-events/adult-war/knit,-stitch,-yarn-warrawong-library/knit,-stitch,-yarn-dapto-library3">Knit, Stitch, Yarn - Warrawong Library</a></li>
+                </ul>
+             </td>
+         </tr>
+         <tr>
+             <td>Let's Chat - Wollongong Library</td>
+             <td>18-Aug-2023</td>
+             <td>Come join us to learn conversational English and make new friends.</td>
+             <td>
+                <ul>
+                   <li>Pricing: Free</li>
+                   <li>Location: Wollongong Library</li>
+                   <li>Time: 10:30am - 11:30am</li>
+                   <li>Link: <a href="https://www.wollongong.nsw.gov.au/library/library-events/adult-wol/regular-programs/lets-chat-wollongong-library2">Let's Chat Wollongong Library</a></li>
+                </ul>
+             </td>
+         </tr>
+         <tr>
+             <td>Let's Try... Sip and Paint - Corrimal Library</td>
+             <td>18-Aug-2023</td>
+             <td>Come join us for a guided painting session at Corrimal Library!</td>
+             <td>
+                <ul>
+                   <li>Pricing: $25</li>
+                   <li>Location: Corrimal Library</li>
+                   <li>Time: 06:00pm -08:00pm</li>
+                   <li>Link: <a href="https://www.wollongong.nsw.gov.au/library/library-events/adult-cor/lets-try...-sip-and-paint-corrimal-library">Let's Try... Sip and Paint - Corrimal Library</a></li>
+                </ul>
+             </td>
+         </tr>
+     </table><br /><br />
+     <h3><b><i><u>Popular Places:</u></i></b></h3>
+     <table border="0">
+         <tr>
+             <td><b><font size="6">Wollongong Tandem Skydiving</font></b></td>
+             <td><img src="pic1.png" height="100px" width="150px" /></td>
+             <td><i><a href="tel.+1 781 800 5000">+1 781 800 5000</a></i><td>
+             <td>&#128184; &#128184; &#128184; &#128184;</td>
+         </tr>
+         <tr>
+             <td><b><font size="6">Hang gliding with HangglideOz</font></b></td>
+             <td><img src="pic2.png" height="100px" width="150px" /></td>
+             <td><i><a href="tel.+1 781 800 5000">+1 781 800 5000</a></i><td>
+             <td>&#128184; &#128184; &#128184;</td>
+         </tr>
+         <tr>
+             <td><b><font size="6">Half-Day Deep Sea Fishing</font></b></td>
+             <td><img src="pic3.png" height="100px" width="150px" /></td>
+             <td><i><a href="tel.+1 781 800 5000">+1 781 800 5000</a></i><td>
+             <td>&#128184; &#128184;</td>
+         </tr>
+         <tr>
+             <td><b><font size="6">Sydney Wine Tour - Wine, Waves & Wildlife in South Coast</font></b></td>
+             <td><img src="pic4.png" height="100px" width="150px" /></td>
+             <td><i><a href="tel.+1 781 800 5000">+1 781 800 5000</a></i><td>
+             <td>&#128184; &#128184; &#128184; &#128184; &#128184;</td>
+         </tr>
+         <tr>
+             <td><b><font size="6">Wollongong Scavenger Hunt: Wollongong's Storied History</font></b></td>
+             <td><img src="pic5.png" height="100px" width="150px" /></td>
+             <td><i><a href="tel.+1 781 800 5000">+1 781 800 5000</a></i><td>
+             <td>&#128184;</td>
+         </tr>
+     </table><br /><br />
+     <h3><b><i><u>Wollongong Info Center Details:</u></i></b></h3>
+     <ul>
+        <li>Contact phone: <a href="tel.0423765345">0423765345</a></li>
+        <li>Opening Hours: 08:00am - 05:00pm</li>
+        <li>Address: Level 3, Keira Heights, Gipps Road, 5420, NSW</li>
+     </ul><br /><br /><br /><br />
+     <h6>References:<h6>
+     <ul>
+        <li><font size="1"><a href="https://www.wollongong.nsw.gov.au/my-community/events">https://www.wollongong.nsw.gov.au/my-community/events</a></font></li>
+        <li><font size="1"><a href="https://www.tripadvisor.com.au/Attraction_Products-g255333-Wollongong_New_South_Wales.html">https://www.tripadvisor.com.au/Attraction_Products-g255333-Wollongong_New_South_Wales.html</a></font></li>
+     </ul>
+  </body>
+</html>
